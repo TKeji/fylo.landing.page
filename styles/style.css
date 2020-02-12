@@ -1,3 +1,45 @@
+/* CSS Resets */
+*{
+  box-sizing: border-box; 
+  margin: 0; 
+  padding: 0; 
+}
+ul{
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+}
+
+
+/* General Styles */
+:root{
+  --primary-dark-blue: hsl(243, 87%, 12%); 
+  --primary-desaturated-blue: hsl(238, 22%, 44%); 
+  --accent-blue: hsl(244, 93%, 58%); 
+  --accent-cyan: hsl(170, 45%, 43%); 
+  --neutral-grayish-blue: hsl(240, 75%, 98%);
+  --neutral-light-gray: hsl(0, 0%, 75%); 
+}
+
+main{
+  /* 1440px */
+  max-width: 90rem; 
+  margin: 0 auto; 
+}
+
+
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1,
+h2,
+h3{
+  font-family: 'Raleway', sans-serif;
+}
+
+
 
 
 .attribution { font-size: 11px; text-align: center; }
