@@ -21,7 +21,7 @@ a{
 :root{
   --primary-dark-blue: hsl(243, 87%, 12%); 
   --primary-desaturated-blue: hsl(238, 22%, 44%); 
-  --accent-blue: hsl(244, 93%, 58%); 
+  --accent-blue: hsl(224, 93%, 44%); 
   --accent-cyan: hsl(170, 45%, 43%); 
   --neutral-grayish-blue: hsl(240, 75%, 98%);
   --neutral-light-gray: hsl(0, 0%, 75%); 
@@ -31,12 +31,13 @@ main{
   /* 1440px */
   /* max-width: 90rem;  */
   margin: 0 auto; 
-  padding: 1.2rem; 
+  /* padding: 1.µ2rem;  */
 }
 
 
 body{
   font-family: 'Open Sans', sans-serif;
+  color: var(--primary-desaturated-blue); 
 }
 
 h1,
@@ -48,8 +49,12 @@ h3{
 
 /* Main Navigation */
 header{
-  height: 5rem; 
+  padding: 1rem 2rem; 
+  /* height: 5rem;  */
+  margin-top: 1rem; 
+  margin-bottom: 5rem; 
   font-size: 0.8rem; 
+  text-align: center; 
 }
 .container{
   min-width: 20rem; 
@@ -82,12 +87,170 @@ header{
 
 
 /* Hero / Banner */
+.hero{
+  width: 80%; 
+  margin: 0 auto; 
+  margin-bottom: 7rem;
+}
 .hero__img-container{
   margin-bottom: 2rem; 
 }
-.hero__content > h1{
 
+.hero__content{
+  text-align: center;
+  margin-bottom: 2rem; 
+  padding: 0.5rem 0; 
 }
+
+.hero__content h1{
+  color: var(--primary-dark-blue); 
+  font-size: 1.5rem;
+  line-height: 2.2rem;
+  margin-bottom: 1rem;
+}
+.hero__content p{
+  margin: 0 auto; 
+  width: 90%; 
+  font-size: 0.8rem;
+  margin-bottom: 2rem; 
+}
+
+.hero__content > form{
+  width: 100%; 
+}
+
+.hero__content  input{
+  margin: 0 auto; 
+  display:block;
+  width: 80%; 
+  height: 2.5rem; 
+  outline: none; 
+  border: 1px solid var(--primary-dark-blue); 
+  padding: 0.5rem 0.8rem; 
+  margin-bottom: 1rem; 
+  border-radius: 4px;
+}
+.hero__content  button{
+  height: 2.7rem; 
+  color: white; 
+  background: var(--accent-blue); 
+  width: 80%; 
+  padding: 0.6rem 1rem; 
+  font-size: 1.1rem;
+  text-align: center;
+  border-radius: 4px; 
+}
+
+
+/* Second Section */
+.section-curve{
+  background: url("/images/bg-curve-mobile.svg") center/cover no-repeat; 
+  height: 80px; 
+}
+
+.productivity-hero{
+  background: var(--neutral-grayish-blue); 
+  margin-left: 0; 
+  margin-right: 0; 
+  width: 100%; 
+}
+
+.hero__img-container{
+  margin: 0 auto; 
+  width: 90%; 
+  margin-bottom: 4rem; 
+}
+
+
+#hero__content__header--mobile{
+  font-size: 1.1rem; 
+}
+
+#hero__content__header--desktop{
+  display: none; 
+}
+
+.productivity-hero > .hero__content > p{
+  text-align: left;
+  font-size: 0.9rem; 
+  line-height: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.hero__content__link{
+  display: flex;  
+  width: 10.3rem;
+  margin: 1rem auto; 
+  margin-bottom: 3rem; 
+  padding: 0.5rem 0.1rem; 
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--accent-cyan); 
+  color: var(--accent-cyan); 
+}
+
+.hero__content__link--text{
+  display: inline-block; 
+  font-size: 0.9rem; 
+}
+
+.hero__content__link > .hero__content__link__img-container{
+  width: 1.5rem; 
+  height: 1.5rem; 
+}
+
+/* Quote/Profile */
+.hero__content__quote{
+  width: 80%; 
+  margin: 0 auto; 
+  background: white;
+  padding: 1.2rem;  
+  border-radius: 3px; 
+  margin-bottom: 4rem; 
+}
+
+.hero__content__quote__img-container{
+  width: 1rem; 
+  height: 1rem; 
+  margin-bottom: 1rem; 
+}
+
+.hero__content__quote > p{
+  margin: 0; 
+  width: 100%; 
+  font-size: 0.7rem;
+  line-height: 1.2rem;
+  text-align: left;
+  margin-bottom: 1rem; 
+}
+
+.hero__content__quote__profile{
+  display: flex; 
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.hero__content__quote__profile--img-container{
+  width: 13%; 
+  height: 13%; 
+  border-radius: 50%;
+  margin-right: 0.5rem; 
+}
+.hero__content__quote__profile--img-container > img{
+  border-radius: inherit;
+}
+
+.hero__content__quote__profile--name{
+  font-family: 'Raleway', sans-serif;
+  text-align: left; 
+  font-size: 0.8rem; 
+  font-weight: bold;
+}
+
+.hero__content__quote__profile--title{
+  font-size: 0.5rem; 
+}
+
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
