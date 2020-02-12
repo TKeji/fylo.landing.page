@@ -57,7 +57,7 @@ header{
   text-align: center; 
 }
 .container{
-  min-width: 20rem; 
+  /* min-width: 20rem;  */
   display: flex; 
   flex-direction: row; 
   justify-content: space-between;
@@ -99,7 +99,7 @@ header{
 .hero__content{
   text-align: center;
   margin-bottom: 2rem; 
-  padding: 0.5rem 0; 
+  padding: 1.2rem 0; 
 }
 
 .hero__content h1{
@@ -152,6 +152,8 @@ header{
   background: var(--neutral-grayish-blue); 
   margin-left: 0; 
   margin-right: 0; 
+  margin-bottom: 0; 
+  padding-bottom: 1rem;
   width: 100%; 
 }
 
@@ -251,6 +253,55 @@ header{
   font-size: 0.5rem; 
 }
 
+
+/* Sign Up Section */
+.sign-up{
+  background: var(--primary-desaturated-blue); 
+  color: var(--neutral-grayish-blue); 
+  padding: 3rem 1.2rem; 
+  text-align: center; 
+}
+
+.sign-up__header{
+  font-family: 'Raleway', sans-serif;
+  margin-bottom: 1rem; 
+}
+
+.sign-up > p{
+  width: 90%;
+  margin: 0 auto;  
+  font-size: 0.95rem;
+  margin-bottom: 1rem; 
+  line-height: 1.5rem;
+}
+
+.sign-up > form{
+
+}
+
+.sign-up form > input{
+  margin: 0 auto; 
+  display:block;
+  width: 70%; 
+  height: 2rem; 
+  outline: none; 
+  border: 1px solid var(--primary-dark-blue); 
+  padding: 0.5rem 0.8rem; 
+  margin-bottom: 0.5rem; 
+  border-radius: 4px;
+}
+
+.sign-up form > button{
+  height: 2.2rem; 
+  color: white; 
+  background: var(--accent-blue); 
+  width: 70%; 
+  padding: 0 1rem; 
+  font-size: 1rem;
+  text-align: center;
+  border-radius: 4px; 
+  border: none; 
+}
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
