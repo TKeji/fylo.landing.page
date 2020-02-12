@@ -11,6 +11,11 @@ a{
   text-decoration: none;
 }
 
+.contained-img{
+  width: 100%; 
+  height: 100%; 
+}
+
 
 /* General Styles */
 :root{
@@ -24,8 +29,9 @@ a{
 
 main{
   /* 1440px */
-  max-width: 90rem; 
+  /* max-width: 90rem;  */
   margin: 0 auto; 
+  padding: 1.2rem; 
 }
 
 
@@ -40,7 +46,48 @@ h3{
 }
 
 
+/* Main Navigation */
+header{
+  height: 5rem; 
+  font-size: 0.8rem; 
+}
+.container{
+  min-width: 20rem; 
+  display: flex; 
+  flex-direction: row; 
+  justify-content: space-between;
+  align-items: center;
+}
+.container > .logo{
+  height: 2rem; 
+  width: 7rem; 
+}
 
+.container .logo img{
+  height: 100%; 
+  width: 100%;
+}
+
+.main-nav__items{
+  color: var(--primary-desaturated-blue); 
+  display: flex; 
+}
+.main-nav__item{
+  margin-left: 1rem; 
+}
+.main-nav__item a{
+  color: inherit; 
+}
+
+
+
+/* Hero / Banner */
+.hero__img-container{
+  margin-bottom: 2rem; 
+}
+.hero__content > h1{
+
+}
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
