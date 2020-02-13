@@ -537,4 +537,43 @@ footer svg{
     height: 2.5rem; 
   }
 
+  /* Footer Area */
+  footer{
+    display: flex; 
+    flex-direction: column; 
+
+    padding: 3rem 3rem; 
+  }
+
+  #footer-data{
+    display: flex; 
+    justify-content: space-between;
+    margin-right: 10rem; 
+  }
+
+  .footer__social-media{
+    width: auto; 
+    margin: 0; 
+  }
+
+  .footer__social-media li{
+    display: inline-block; 
+    height: 1.5rem; 
+    width: 1.5rem; 
+  }
+  .footer__social-media a{
+    padding-left: 18%; 
+    padding-top: 10%; 
+    vertical-align: middle;
+    /* text-align: center;  */
+  }
+
+  .footer__social-media li:nth-of-type(1) a{
+    padding-left: 28%; 
+  }
+  .footer__social-media i {
+    width: 30%;
+    height: 30%; 
+    vertical-align: top; 
+  }
 }
