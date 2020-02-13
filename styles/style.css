@@ -51,9 +51,9 @@ h3{
 header{
   padding: 1rem 2rem; 
   /* height: 5rem;  */
-  margin-top: 1rem; 
+  margin-top: 0.5rem; 
   margin-bottom: 5rem; 
-  font-size: 0.8rem; 
+  font-size: 0.9rem; 
   text-align: center; 
 }
 .container{
@@ -144,7 +144,7 @@ header{
 
 /* Second Section */
 .section-curve{
-  background: url("/images/bg-curve-mobile.svg") center/cover no-repeat; 
+  background: url("../images/bg-curve-mobile.svg") center/cover no-repeat; 
   height: 80px; 
 }
 
