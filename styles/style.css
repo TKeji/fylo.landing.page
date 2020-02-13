@@ -498,6 +498,42 @@ footer svg{
   }
 
   /* Sign Up Section */
+  .sign-up{
+    display: flex; 
+    padding:4rem 3rem; 
+    justify-content: space-between;
+  }
 
+  .sign-up__content{
+    width: 40%; 
+    text-align: left;
+  }
+
+  .sign-up__header {
+    font-size: 1.3rem; 
+  }
+
+  .sign-up__content > p{
+    margin-left: 0; 
+  }
+
+
+  .sign-up > form{
+    width: 38%; 
+    padding: 1rem 0; 
+    padding-right: 2rem; 
+    text-align: left; 
+
+  }
+  .sign-up > form > input{
+    height: 2.6rem; 
+    font-size: 1rem; 
+    width: 100%; 
+  }
+  .sign-up > form > button{
+    font-size: 0.9rem; 
+    width: 50%; 
+    height: 2.5rem; 
+  }
 
 }
