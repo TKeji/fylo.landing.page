@@ -374,3 +374,130 @@ footer svg{
 
 .attribution { font-size: 0.5rem; text-align: center; }
 .attribution a { color: var(--neutral-light-gray) }
+
+
+
+/* Desktop View */
+@media(min-width:768px){
+  body{
+    font-size: 1rem; 
+  }
+
+  /* Header & Nav */
+  header{
+    margin-top: 1.1rem; 
+    font-size: 1.2rem; 
+    padding-left: 3.5rem; 
+    padding-right: 3.5rem; 
+    margin-bottom: 3rem; 
+  }
+
+  .main-nav__item{
+    margin-left: 4rem; 
+  }
+
+  /* Hero Section */
+  .hero{
+    display: flex; 
+    width: 90%; 
+    justify-content: space-between;
+    align-items: center; 
+    margin-bottom: 4rem; 
+  }
+
+  .hero__content{
+    order: -1; 
+    width: 55%; 
+  }
+  .hero__content > h1{
+    font-size: 2.7rem;
+    text-align: left;
+    line-height: 3.2rem;
+  }
+  .hero__content > p{
+    width: 90%; 
+    text-align: left; 
+    font-size: 1.2rem;
+    margin-left: 0; 
+  }
+  .hero__content form{
+    text-align: left;
+  }
+  .hero__content input{
+    display: inline-block; 
+    width: 50%; 
+  }
+  .hero__content button{
+    width: 30%; 
+    margin-left: 1rem; 
+  }
+
+  .hero__img-container{
+    width: 45%; 
+  }
+
+  /* Second Section */
+  .section-curve{
+    background: url("../images/bg-curve-desktop.svg") top 0 left 0/cover no-repeat; 
+    height: 90px; 
+  }
+
+  .productivity-hero{
+    width: 100%; 
+    padding: 1.5rem 3rem; 
+    margin-bottom: 0; 
+  }
+
+  .productivity-hero > .hero__content{
+    width: 58%; 
+  }
+
+  #hero__content__header--mobile{
+    display: none; 
+  }
+  #hero__content__header--desktop{
+    display: block; 
+    font-size: 2rem; 
+    text-align: left; 
+    line-height: 5rem; 
+  }
+  .productivity-hero > .hero__content p {
+    width: 60%; 
+    line-height: 1.5rem;
+    margin-bottom: 1rem; 
+  }
+
+  .productivity-hero > .hero__content p:nth-last-of-type(1){
+    margin-bottom: 0.5rem; 
+  }
+
+  .productivity-hero .hero__img-container{
+    width: 42%; 
+  }
+
+  .productivity-hero .hero__content__link{
+    margin-left: 0; 
+    margin-top: 0; 
+    margin-bottom: 2rem; 
+  }
+
+  /* Quote Box */
+  .hero__content__quote{
+    margin-left: 0; 
+    width: 45%; 
+  }
+
+  .hero__content > .hero__content__quote > p{
+    width: 100%; 
+    line-height: 1.3rem; 
+    font-size: 0.8rem; 
+  }
+
+  .hero__content__quote__profile--img-container{
+    width: 17%; 
+  }
+
+  /* Sign Up Section */
+  
+
+}
