@@ -28,8 +28,6 @@ a{
 }
 
 main{
-  /* 1440px */
-  /* max-width: 90rem;  */
   margin: 0 auto; 
   /* padding: 1.µ2rem;  */
 }
@@ -378,7 +376,11 @@ footer svg{
 
 
 /* Desktop View */
-@media(min-width:768px){
+@media(min-width:850px){
+  main{
+    /* 1440px */
+  max-width: 100rem; 
+  }
   body{
     font-size: 1rem; 
   }
@@ -386,7 +388,7 @@ footer svg{
   /* Header & Nav */
   header{
     margin-top: 1.1rem; 
-    font-size: 1.2rem; 
+    font-size: 1.1rem; 
     padding-left: 3.5rem; 
     padding-right: 3.5rem; 
     margin-bottom: 3rem; 
@@ -459,7 +461,7 @@ footer svg{
     display: block; 
     font-size: 2rem; 
     text-align: left; 
-    line-height: 5rem; 
+    line-height: 3rem; 
   }
   .productivity-hero > .hero__content p {
     width: 60%; 
@@ -485,6 +487,7 @@ footer svg{
   .hero__content__quote{
     margin-left: 0; 
     width: 45%; 
+    min-width: 300px; 
   }
 
   .hero__content > .hero__content__quote > p{
