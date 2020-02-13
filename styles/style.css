@@ -266,7 +266,7 @@ header{
   margin-bottom: 1rem; 
 }
 
-.sign-up > p{
+.sign-up  p{
   width: 90%;
   margin: 0 auto;  
   font-size: 0.95rem;
@@ -498,6 +498,6 @@ footer svg{
   }
 
   /* Sign Up Section */
-  
+
 
 }
